@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link href="Index.css" type="text/css" rel="stylesheet">
+  <title>eBayCatalog</title>
+</head>
+<body>
+		<div class="container">
+				<form name='formOne' action="signIn.php" onsubmit = "return validation()" method="post" >
+				<label for="uEmail"><b>username:</b></label>
+				<input type="email" placeholder="Enter Email Address" name="userEmail" id="userEmail" required>
+				<label for="uPass"><b>password:</b></label>
+				<input type="password" placeholder="Enter Password" name="userPass" id="userPass" required>
+				<label>
+				<button type="submit" id="btn" value = "Login">Login</button>
+				<label>
+				</form>
+		</div>
+</body>
+</html>
